@@ -10,7 +10,6 @@ const crearDeck = () => {
         }
     }
 
-    console.log(deck);
     deck = _.shuffle(deck); // Mezclar el deck usando lodash
     console.log(deck);
     return deck;
